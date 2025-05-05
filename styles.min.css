@@ -1,0 +1,1102 @@
+.is--clear:after{
+    content:"";
+    display:table;
+    clear:both
+}
+.o__hero__container,.o__protect__your__devices__container,.o__manage__digital__life__container,.o__lost__or__stolen__container{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center
+}
+.o__hero__container,.o__protect__your__devices__container,.o__manage__digital__life__container,.o__lost__or__stolen__container{
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+.nor__app__root,[nor-app-root]{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-size:16px;
+    color:#333;
+    -webkit-font-smoothing:subpixel-antialiased
+}
+.a__first__headline{
+    font-family:"Symantec Sans Light",sans-serif;
+    font-size:3em;
+    font-weight:normal;
+    margin:0
+}
+.a__first__headline.is--marketing{
+    font-family:"Symantec Sans Light",sans-serif;
+    font-size:48px;
+    /* font-size:4.8rem; */
+    font-weight:300;
+    line-height:1.25;
+    color:#fff;
+    margin-bottom:0
+}
+@media(max-width:767px){
+    .a__first__headline.is--marketing{
+        font-size:30px;
+        /* font-size:3rem */
+    }
+}
+.a__second__headline{
+    font-family:"Symantec Sans Light",sans-serif;
+    font-size:1.875em;
+    font-weight:normal;
+    margin:0
+}
+.a__second__headline.is--marketing{
+    margin-top:0;
+    font-family:"Symantec Sans Light",sans-serif;
+    font-size:30px;
+    font-size:3rem;
+    font-weight:300;
+    line-height:1.29;
+    color:#fff
+}
+@media(max-width:767px){
+    .a__second__headline.is--marketing{
+        font-size:24px;
+        font-size:2.4rem
+    }
+}
+.a__third__headline{
+    font-family:"Symantec Sans Light",sans-serif;
+    font-size:1.5em;
+    font-weight:normal;
+    margin:0
+}
+.a__third__headline.is--marketing{
+    margin-top:15px;
+    font-size:24px;
+    /* font-size:2.4rem; */
+    font-weight:300;
+    line-height:1.5;
+    color:#fff
+}
+@media(max-width:767px){
+    .a__third__headline.is--marketing{
+        font-size:20px;
+        /* font-size:2rem */
+    }
+}
+.a__fourth__headline{
+    font-family:"Symantec Sans Light",sans-serif;
+    font-size:1.25em;
+    font-weight:normal
+}
+.a__fifth__headline{
+    font-family:"Symantec Sans Bold",sans-serif;
+    font-size:1em;
+    font-weight:normal
+}
+.a__sixth__headline{
+    font-family:"Symantec Sans Bold",sans-serif;
+    font-size:.875em;
+    font-weight:normal
+}
+.a__primary__paragraph{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-size:16px;
+    font-size:1.6rem;
+    font-weight:normal;
+    margin:0
+}
+.a__primary__paragraph.is--marketing{
+    line-height:1.88;
+    color:#fff
+}
+@media(max-width:767px){
+    .a__primary__paragraph{
+        font-size:14px;
+        font-size:1.4rem
+    }
+}
+.a__secondary__paragraph{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-size:.875em;
+    font-weight:normal
+}
+.a__caption{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-size:.6875em;
+    font-weight:normal
+}
+.a__link{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    color:#09557b;
+    transition:color 300ms cubic-bezier(.19,1,.22,1);
+    margin:0
+}
+.a__link:hover{
+    color:#36ade1
+}
+.a__link.is--marketing{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-size:18px;
+    font-size:1.8rem;
+    line-height:1.67;
+    color:#fff;
+    display:block;
+    text-decoration:underline
+}
+@media(max-width:767px){
+    .a__link.is--marketing{
+        font-size:16px;
+        font-size:1.6rem
+    }
+}
+.is--footer{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-size:.75em;
+    color:#8a8a8a
+}
+.has--shadow{
+    text-shadow:0 2px 10px rgba(0,0,0,.4)
+}
+::-webkit-datetime-edit-year-field{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif
+}
+.o__view__container{
+    display:block;
+    position:relative;
+    width:100%;
+    z-index:1
+}
+.o__view__container.is--first{
+    margin-top:60px
+}
+.o__grid__container{
+    display:block;
+    position:relative;
+    z-index:1
+}
+.o__grid__container::after{
+    clear:both;
+    content:"";
+    display:block
+}
+@media(max-width:767px){
+    .o__grid__container{
+        width:100%
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__grid__container{
+        width:100%
+    }
+}
+@media(min-width:1025px) and (max-width:1440px){
+    .o__grid__container{
+        position:relative;
+        left:50%;
+        margin-left:-40%;
+        width:calc(80% - 20px)
+    }
+}
+@media(min-width:1441px){
+    .o__grid__container{
+        position:relative;
+        left:50%;
+        margin-left:-40%;
+        width:80%
+    }
+}
+.o__grid__container.is--first{
+    margin-top:60px
+}
+.is--lazy{
+    opacity:0;
+    transition:opacity .5s ease-out
+}
+.a__norton__check__icon{
+    width:48px;
+    height:48px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-160px -122px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__norton__check__icon{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__norton__logo__icon{
+    width:91px;
+    height:35px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-23px -69px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__norton__logo__icon{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__chevron__icon{
+    cursor:pointer
+}
+.a__chevron__icon.is--grey{
+    width:18px;
+    height:10px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-20px -20px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__chevron__icon.is--grey{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__back__arrow__icon{
+    cursor:pointer
+}
+.a__back__arrow__icon.is--white{
+    width:18px;
+    height:18px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-48px -16px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__back__arrow__icon.is--white{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__hamburger__icon{
+    cursor:pointer
+}
+.a__hamburger__icon.is--grey{
+    width:48px;
+    height:48px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-76px -16px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__hamburger__icon.is--grey{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__close__icon{
+    cursor:pointer
+}
+.a__close__icon.is--dark.is--medium{
+    width:20px;
+    height:20px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-214px -16px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__close__icon.is--dark.is--medium{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__close__icon.is--dark.is--large{
+    width:40px;
+    height:40px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-164px -16px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__close__icon.is--dark.is--large{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__help__icon{
+    cursor:pointer
+}
+.a__help__icon.is--grey{
+    width:20px;
+    height:20px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-134px -16px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__help__icon.is--grey{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__user__icon{
+    cursor:pointer
+}
+.a__user__icon.is--default{
+    width:48px;
+    height:48px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-13px -122px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__user__icon.is--default{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__user__icon.is--grey{
+    width:48px;
+    height:48px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-66px -122px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__user__icon.is--grey{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__anti__theft__icon.is--medium{
+    width:60px;
+    height:60px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-153px -535px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__anti__theft__icon.is--medium{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__anti__theft__icon.is--small{
+    width:40px;
+    height:40px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-323px -544px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__anti__theft__icon.is--small{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__account__blue__icon.is--medium{
+    width:60px;
+    height:60px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-83px -535px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__account__blue__icon.is--medium{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__account__blue__icon.is--small{
+    width:40px;
+    height:40px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-272px -544px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__account__blue__icon.is--small{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__download__blue__icon.is--medium{
+    width:60px;
+    height:60px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-13px -535px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__download__blue__icon.is--medium{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__download__blue__icon.is--small{
+    width:40px;
+    height:40px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-222px -544px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__download__blue__icon.is--small{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__symantec__logo{
+    width:72px;
+    height:20px;
+    background-repeat:no-repeat;
+    background-image:url('../../images/global/sprite/norton-ui-sprite.png');
+    background-position:-134px -69px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+    .a__symantec__logo{
+        background-image:url('../../images/global/sprite/norton-ui-spritex2.png');
+        background-size:340px 320px
+    }
+}
+.a__primary__button{
+    color:#585858;
+    background:#fdd572;
+    display:block;
+    font-size:18px;
+    /* font-size:1.8rem; */
+    cursor:pointer;
+    margin-top:24px;
+    text-align:center;
+    padding:17px 20px
+}
+.a__primary__button:hover{
+    background:#fcc34f
+}
+.a__primary__button:active{
+    background:#fdbb30
+}
+.a__primary__button.is--disabled{
+    color:#a0a0a0;
+    background:#e2e2e2;
+    cursor:not-allowed
+}
+.a__primary__button.is--market{
+    background:#fdbb30
+}
+.a__primary__button.is--market:hover{
+    background:#fcc34f
+}
+.a__primary__button.is--market:active{
+    background:#fdd572
+}
+.a__secondary__button{
+    color:#585858;
+    background:#a0a0a0;
+    display:block;
+    font-size:.875em;
+    cursor:pointer;
+    text-align:center;
+    margin-top:24px;
+    padding:17px 20px
+}
+.a__secondary__button:hover{
+    background:#8a8a8a
+}
+.a__secondary__button:active{
+    background:#585858
+}
+.a__secondary__button.is--disabled{
+    color:#a0a0a0;
+    background:#e2e2e2;
+    cursor:not-allowed
+}
+.a__secondary__button.is--market{
+    color:#fff;
+    background:#000
+}
+.a__secondary__button.is--market:hover{
+    background:#434343
+}
+.a__secondary__button.is--market:active{
+    background:#585858
+}
+.a__link__button{
+    color:#0089c6;
+    background:#fff;
+    display:block;
+    font-size:.875em;
+    cursor:pointer;
+    margin-top:24px;
+    text-align:center;
+    padding:17px 20px
+}
+.a__link__button:hover{
+    color:#36ade1;
+    text-decoration:underline
+}
+.a__link__button:active{
+    color:#09557b;
+    text-decoration:underline
+}
+.a__link__button.is--disabled{
+    color:#a0a0a0;
+    background:#fff;
+    cursor:not-allowed
+}
+.a__text__button{
+    color:#585858;
+    background:#fff;
+    display:block;
+    font-size:.875em;
+    cursor:pointer;
+    margin-top:24px;
+    text-align:center;
+    padding:17px 20px
+}
+.a__text__button:hover{
+    color:#585858;
+    text-decoration:underline
+}
+.a__text__button:active{
+    color:#032e61;
+    text-decoration:underline
+}
+.a__text__button.is--disabled{
+    color:#a0a0a0;
+    background:#fff;
+    cursor:not-allowed
+}
+button.a__primary__button,button.a__secondary__button{
+    border:none;
+    outline:none;
+    cursor:pointer
+}
+.m__fieldset{
+    border-width:0;
+    border-style:none;
+    border-color:transparent;
+    border-image:none
+}
+.m__form__input,.m__form__select{
+    width:100%
+}
+.is--signin{
+    font-size:15px;
+    font-weight:500;
+    line-height:1.33;
+    color:#0089c6
+}
+.is--signin span{
+    text-transform:capitalize
+}
+.is--signin .a__user__icon{
+    display:block
+}
+section{
+    position:relative;
+    z-index:0
+}
+.o__section__divider{
+    background:#fff;
+    height:5px;
+    width:100%;
+    position:absolute;
+    z-index:1;
+    overflow:visible
+}
+.o__section__divider .m__icon{
+    max-width:100px;
+    height:100px;
+    margin-top:-50px
+}
+.o__section__divider .m__icon *{
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto
+}
+.o__section__divider .m__icon .is--small{
+    display:none
+}
+.o__section__divider .m__icon.is--white{
+    background:#fff
+}
+.o__section__divider .m__icon.is--circle{
+    border-radius:50px
+}
+@media(min-width:1441px){
+    .o__section__divider .m__icon.is--left{
+        left:calc(4.16667% - 31.25px + 30px);
+        position:relative;
+        width:calc(16.66667% - 35px);
+        float:left;
+        margin-left:30px
+    }
+}
+@media(min-width:1025px) and (max-width:1440px){
+    .o__section__divider .m__icon.is--left{
+        left:calc(4.16667% - 20.83333px + 20px);
+        position:relative;
+        width:calc(16.66667% - 23.33333px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__section__divider .m__icon.is--left{
+        left:calc(4.375% - 20.875px + 20px);
+        position:relative;
+        width:calc(25% - 25px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(min-width:1441px){
+    .o__section__divider .m__icon.is--right{
+        left:calc(87.5% - 56.25px + 30px);
+        position:relative;
+        width:calc(16.66667% - 35px);
+        float:left;
+        margin-left:30px
+    }
+}
+@media(min-width:1025px) and (max-width:1440px){
+    .o__section__divider .m__icon.is--right{
+        left:calc(87.5% - 37.5px + 20px);
+        position:relative;
+        width:calc(16.66667% - 23.33333px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__section__divider .m__icon.is--right{
+        left:calc(79.375% - 35.875px + 20px);
+        position:relative;
+        width:calc(25% - 25px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(max-width:767px){
+    .o__section__divider .m__icon{
+        width:60px;
+        height:60px;
+        top:0;
+        left:0;
+        right:0;
+        margin:-30px auto;
+        clear:both
+    }
+    .o__section__divider .m__icon .is--small{
+        display:block
+    }
+    .o__section__divider .m__icon .is--medium{
+        display:none
+    }
+}
+.o__hero__container{
+    background-image:url('../img/mynorton-hero.jpg');
+    height:calc(100vh - 157px);
+    min-height:500px
+}
+.o__hero__container .m__copy__container{
+    margin-top:20vh
+}
+@media screen and (max-width:767px) and (orientation:landscape){
+    .o__hero__container{
+        height:calc(100vh - 211px);
+        min-height:400px
+    }
+    .o__hero__container .m__copy__container{
+        margin-top:10vh
+    }
+}
+@media(min-width:1441px){
+    .o__hero__container .m__copy__container{
+        width:calc(100% - 60px);
+        float:left;
+        margin-left:30px
+    }
+}
+@media(min-width:1025px) and (max-width:1440px){
+    .o__hero__container .m__copy__container{
+        width:calc(100% - 40px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__hero__container .m__copy__container{
+        left:calc(12.5% - 22.5px + 20px);
+        position:relative;
+        width:calc(75% - 35px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(max-width:767px){
+    .o__hero__container .m__copy__container{
+        width:calc(100% - 40px);
+        float:left;
+        margin-left:20px
+    }
+}
+.o__hero__container .m__button__cta .a__primary__button{
+    display:block;
+    width:100%;
+    margin:50px 0 15px 0
+}
+@media screen and (max-width:767px) and (orientation:landscape){
+    .o__hero__container .m__button__cta .a__primary__button{
+        margin:25px 0 15px
+    }
+}
+.o__hero__container .m__button__cta .a__link{
+    font-size:16px;
+    /* font-size:1.6rem; */
+    font-weight:600;
+    line-height:1.56;
+    color:#fff;
+    text-decoration:none;
+    margin-top:15px;
+    display:block
+}
+@media(min-width:1441px){
+    .o__hero__container .m__button__cta{
+        width:calc(25% - 37.5px);
+        float:left;
+        margin-left:30px
+    }
+}
+@media(min-width:1025px) and (max-width:1440px){
+    .o__hero__container .m__button__cta{
+        width:calc(35% - 25px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__hero__container .m__button__cta{
+        left:calc(12.5% - 22.5px + 20px);
+        position:relative;
+        width:calc(37.5% - 27.5px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(max-width:767px){
+    .o__hero__container .m__button__cta{
+        width:calc(100% - 40px);
+        float:left;
+        margin-left:20px
+    }
+    .o__hero__container .m__button__cta .a__link{
+        font-size:14px;
+        /* font-size:1.4rem */
+    }
+}
+@media screen and (max-width:767px) and (orientation:landscape){
+    .o__hero__container .m__button__cta{
+        width:calc(50% - 30px);
+        float:left;
+        margin-left:20px
+    }
+}
+.o__protect__your__devices__container{
+    width:100%;
+    background-image:url('../../images/feature-specific/svg/security-illustration.svg'),linear-gradient(to top,#0089c6,#36ade1)
+}
+.o__protect__your__devices__container .m__inline__icon{
+    margin:115px 0
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__protect__your__devices__container .m__inline__icon{
+        margin:194px 0
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+    .o__protect__your__devices__container .m__inline__icon{
+        margin:150px 0
+    }
+}
+@media(max-width:767px){
+    .o__protect__your__devices__container .m__inline__icon{
+        display:none
+    }
+}
+.o__protect__your__devices__container .m__inline__icon .a__device__icon{
+    width:74.5%;
+    margin:0 0 0 12.5%;
+    max-width:425px;
+    max-height:290px
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__protect__your__devices__container .m__inline__icon .a__device__icon{
+        margin:0 0 0 5%;
+        width:90%
+    }
+}
+@media(min-width:1441px){
+    .o__protect__your__devices__container .m__inline__icon{
+        width:calc(50% - 45px);
+        float:left;
+        margin-left:30px
+    }
+}
+@media(min-width:1025px) and (max-width:1440px){
+    .o__protect__your__devices__container .m__inline__icon{
+        width:calc(50% - 30px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__protect__your__devices__container .m__inline__icon{
+        width:calc(37.5% - 27.5px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(max-width:767px){
+    .o__protect__your__devices__container .m__inline__icon{
+        width:calc(75% - 35px);
+        float:left;
+        margin-left:20px
+    }
+}
+.o__protect__your__devices__container .m__copy__container{
+    margin:120px 0
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__protect__your__devices__container .m__copy__container{
+        margin:115px 0
+    }
+}
+@media(max-width:767px){
+    .o__protect__your__devices__container .m__copy__container{
+        margin:70px 0
+    }
+}
+.o__protect__your__devices__container .m__copy__container .a__primary__paragraph{
+    margin:40px 0
+}
+@media(max-width:767px){
+    .o__protect__your__devices__container .m__copy__container .a__primary__paragraph{
+        margin:20px 0
+    }
+}
+@media(min-width:1441px){
+    .o__protect__your__devices__container .m__copy__container{
+        width:calc(50% - 45px);
+        float:left;
+        margin-left:30px
+    }
+}
+@media(min-width:1025px) and (max-width:1440px){
+    .o__protect__your__devices__container .m__copy__container{
+        width:calc(50% - 30px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__protect__your__devices__container .m__copy__container{
+        width:calc(62.5% - 32.5px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(max-width:767px){
+    .o__protect__your__devices__container .m__copy__container{
+        width:calc(100% - 40px);
+        float:left;
+        margin-left:20px
+    }
+}
+.o__manage__digital__life__container{
+    background-image:url("../../images/feature-specific/background_images/section2-image.jpg")
+}
+.o__manage__digital__life__container .m__copy__container{
+    margin:120px 0
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__manage__digital__life__container .m__copy__container{
+        margin:105px 0
+    }
+}
+@media(max-width:767px){
+    .o__manage__digital__life__container .m__copy__container{
+        margin:70px 0
+    }
+}
+.o__manage__digital__life__container .m__copy__container .a__primary__paragraph{
+    margin:40px 0
+}
+@media(max-width:767px){
+    .o__manage__digital__life__container .m__copy__container .a__primary__paragraph{
+        margin:20px 0
+    }
+}
+@media(min-width:1441px){
+    .o__manage__digital__life__container .m__copy__container{
+        width:calc(50% - 45px);
+        float:left;
+        margin-left:30px
+    }
+}
+@media(min-width:1025px) and (max-width:1440px){
+    .o__manage__digital__life__container .m__copy__container{
+        width:calc(50% - 30px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__manage__digital__life__container .m__copy__container{
+        width:calc(62.5% - 32.5px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(max-width:767px){
+    .o__manage__digital__life__container .m__copy__container{
+        width:calc(100% - 40px);
+        float:left;
+        margin-left:20px
+    }
+}
+.o__lost__or__stolen__container{
+    width:100%;
+    background-image:url('../../images/feature-specific/svg/world-map.svg'),linear-gradient(to top,#fdbb30,#0089c6)
+}
+.o__lost__or__stolen__container .m__inline__icon{
+    margin:98px 0
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__lost__or__stolen__container .m__inline__icon{
+        margin:153px 0
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+    .o__lost__or__stolen__container .m__inline__icon{
+        margin:80px 0
+    }
+}
+@media(max-width:767px){
+    .o__lost__or__stolen__container .m__inline__icon{
+        margin:0 0
+    }
+}
+.o__lost__or__stolen__container .m__inline__icon .a__mobile__icon{
+    width:82%;
+    margin:0 0 0 8.5%;
+    max-width:300px;
+    max-height:365px
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__lost__or__stolen__container .m__inline__icon .a__mobile__icon{
+        width:90%;
+        margin:0 0 0 5%
+    }
+}
+@media(max-width:767px){
+    .o__lost__or__stolen__container .m__inline__icon .a__mobile__icon{
+        display:none
+    }
+}
+@media(min-width:1441px){
+    .o__lost__or__stolen__container .m__inline__icon{
+        left:calc(8.33333% - 32.5px + 30px);
+        position:relative;
+        width:calc(33.33333% - 40px);
+        float:left;
+        margin-left:30px
+    }
+}
+@media(min-width:1025px) and (max-width:1440px){
+    .o__lost__or__stolen__container .m__inline__icon{
+        left:calc(8.33333% - 21.66667px + 20px);
+        position:relative;
+        width:calc(33.33333% - 26.66667px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__lost__or__stolen__container .m__inline__icon{
+        width:calc(37.5% - 27.5px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(max-width:767px){
+    .o__lost__or__stolen__container .m__inline__icon{
+        width:calc(75% - 35px);
+        float:left;
+        margin-left:20px
+    }
+}
+.o__lost__or__stolen__container .m__copy__container{
+    margin:120px 0
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__lost__or__stolen__container .m__copy__container{
+        margin:80px 0 125px 0
+    }
+}
+@media(max-width:767px){
+    .o__lost__or__stolen__container .m__copy__container{
+        margin:70px 0
+    }
+}
+.o__lost__or__stolen__container .m__copy__container .a__primary__paragraph{
+    margin:40px 0
+}
+@media(max-width:767px){
+    .o__lost__or__stolen__container .m__copy__container .a__primary__paragraph{
+        margin:20px 0
+    }
+}
+@media(min-width:1441px){
+    .o__lost__or__stolen__container .m__copy__container{
+        left:calc(16.66667% - 35px + 30px);
+        position:relative;
+        width:calc(50% - 45px);
+        float:left;
+        margin-left:30px
+    }
+}
+@media(min-width:1025px) and (max-width:1440px){
+    .o__lost__or__stolen__container .m__copy__container{
+        left:calc(16.66667% - 23.33333px + 20px);
+        position:relative;
+        width:calc(50% - 30px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .o__lost__or__stolen__container .m__copy__container{
+        width:calc(62.5% - 32.5px);
+        float:left;
+        margin-left:20px
+    }
+}
+@media(max-width:767px){
+    .o__lost__or__stolen__container .m__copy__container{
+        width:calc(100% - 40px);
+        float:left;
+        margin-left:20px
+    }
+}
+.t__landing__page__container.is--ie9 .o__protect__your__devices__container{
+    background-image:url('../../images/feature-specific/background_images/security-illustration.jpg')
+}
+.t__landing__page__container.is--ie9 .o__lost__or__stolen__container{
+    background-image:url('../../images/feature-specific/background_images/world-map.jpg')
+}
+.t__landing__page__container.is--ipad .o__manage__digital__life__container{
+    background-position:-92px center
+}
+.t__landing__page__container.is--iphone5 .o__manage__digital__life__container{
+    background-position:-410px center
+}
+.t__landing__page__container.is--iphone6 .o__manage__digital__life__container{
+    background-position:-318px center
+}
+.t__landing__page__container.is--android .o__manage__digital__life__container{
+    background-position:-325px center
+}
